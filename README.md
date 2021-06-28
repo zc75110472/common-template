@@ -1,2 +1,1 @@
-# common-template
-快速构建项目模板
+# react项目快速构建模板

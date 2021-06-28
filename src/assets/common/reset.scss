@@ -1,0 +1,78 @@
+/* reset */
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+em,
+i,
+span,
+a,
+img,
+input,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+img,
+input {
+  border: none;
+}
+
+body {
+  font: 14PX/1.75 "Microsoft YaHei", Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+img {
+  -webkit-touch-callout: none;
+  /* 禁止长按链接与图片弹出菜单 */
+}
+
+html,
+body {
+  -webkit-user-select: none;
+  /* 禁止选中文本（如无文本选中需求，此为必选项） */
+  user-select: none;
+}
+
+.tx_indet {
+  text-indent: -2000PX;
+  overflow: hidden;
+}
+.commonAnimate-enter {
+  opacity: 0;
+}
+.commonAnimate-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.commonAnimate-exit {
+  opacity: 1;
+}
+.commonAnimate-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
